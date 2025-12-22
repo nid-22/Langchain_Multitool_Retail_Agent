@@ -19,12 +19,21 @@ The agent dynamically decides which tools to invoke based on user intent and com
 
 ## Architecture
 User Query
+
 ↓
+
 LangChain Agent (Tool-Calling LLM)
+
 ↓
+
 Tool Selection
+
 ↓
+
 Vector Search / Pandas Filtering / Comparison Logic
+
 ↓
+
 Final User-Facing Response
+
 
