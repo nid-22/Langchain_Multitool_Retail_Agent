@@ -7,7 +7,7 @@ The agent dynamically decides which tools to invoke based on user intent and com
 
 ---
 
-## Key Capabilities
+## Capabilities
 - Semantic product recommendations using vector search
 - Product comparison with tabular output
 - Gender-aware outfit generation (topwear, bottomwear, shoes)
@@ -18,4 +18,13 @@ The agent dynamically decides which tools to invoke based on user intent and com
 ---
 
 ## Architecture
+User Query
+↓
+LangChain Agent (Tool-Calling LLM)
+↓
+Tool Selection
+↓
+Vector Search / Pandas Filtering / Comparison Logic
+↓
+Final User-Facing Response
 
